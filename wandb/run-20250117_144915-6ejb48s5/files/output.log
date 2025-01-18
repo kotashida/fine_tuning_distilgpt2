@@ -1,0 +1,32 @@
+DatasetDict({
+    train: Dataset({
+        features: ['text', 'answer'],
+        num_rows: 183
+    })
+})
+{'text': '[INST] What are some of the services that Apple provides? [/INST]', 'answer': 'Apple Pay, Apple Music, Apple TV+.'}
+DatasetDict({
+    train: Dataset({
+        features: ['text', 'answer', 'input_ids', 'attention_mask', 'labels'],
+        num_rows: 183
+    })
+})
+C:\Users\shida\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\transformers\training_args.py:1575: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(
+C:\Users\shida\AppData\Local\Temp\ipykernel_16060\4009010294.py:62: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+C:\Users\shida\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\transformers\generation\configuration_utils.py:676: UserWarning: `num_beams` is set to 1. However, `early_stopping` is set to `True` -- this flag is only used in beam-based generation modes. You should set `num_beams>1` or unset `early_stopping`.
+  warnings.warn(
+Question: What services does Apple provide?
+Answer: Apple provides a range of services.
+Question: What services does Apple provide?
+Answer: Apple's website.
+Question: What services does Apple provide?
+Answer: The Apple Watch app.
+Question: What does a positive Relative TSR represent?
+Answer: A positive relative TRS.
+Object `data` not found.
+Question: Does Apple train their AI models on user data?
+Answer: No.
+Question: How much dollars did Apple return to its shareholders?
+Answer: $1.5 million.

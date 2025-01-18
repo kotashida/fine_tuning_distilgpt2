@@ -1,0 +1,27 @@
+{
+  "os": "Windows-10-10.0.22631-SP0",
+  "python": "CPython 3.11.9",
+  "startedAt": "2025-01-17T22:49:16.464943Z",
+  "program": "main.ipynb",
+  "codePath": "main.ipynb",
+  "email": "shidak975@gmail.com",
+  "root": "C:\\Users\\shida\\OneDrive\\Programming\\Projects\\Fine-tuning",
+  "host": "MyDevice",
+  "executable": "C:\\Users\\shida\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\python.exe",
+  "codePathLocal": "main.ipynb",
+  "cpu_count": 10,
+  "cpu_count_logical": 12,
+  "disk": {
+    "/": {
+      "total": "511092715520",
+      "used": "307000639488"
+    }
+  },
+  "memory": {
+    "total": "16832106496"
+  },
+  "cpu": {
+    "count": 10,
+    "countLogical": 12
+  }
+}
